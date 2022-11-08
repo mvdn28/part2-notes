@@ -1,0 +1,5 @@
+MONGODB_URI=mongodb+srv://mvdn28:mg28052805@cluster0.memieqt.mongodb.net/noteApp?retryWrites=true&w=majority
+PORT=3001
+
+TEST_MONGODB_URI=mongodb+srv://mvdn28:mg28052805@cluster0.memieqt.mongodb.net/noteApp?retryWrites=true&w=majority
+SECRET='bearer eyJhbGciOiJIUzI1NiIsInR5c2VybmFtZSI6Im1sdXVra2FpIiwiaW'
