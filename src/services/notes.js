@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/api/notes'
+const baseUrl = '/api/notes'
 
 let token = null
 
@@ -7,10 +7,10 @@ const setToken = newToken => {
   token = `bearer ${newToken}`
 }
 
-const getAll = () => {
-  const request = axios.get(baseUrl)
+const getAll = async() => {
+  const request = await axios.get(baseUrl)
 
-  return request.then(response => response.data)
+  return request.data
 }
 
 const create = async newObject => {
